@@ -3,9 +3,9 @@
   <h1 class="center">My Account Info</h1>
 
   <ul class="nav nav-tabs">
-    <li  onclick="openCity(event, 'myAccount')" id="defaultOpen"><a href="#">My Account</a></li>
-    <li onclick="openCity(event, 'setting')"><a href="#">Setting</a></li>
-    <li onclick="openCity(event, 'order')"><a href="#">View Order</a></li>
+    <li  onclick="openCity(event, 'myAccount')" id="defaultOpen" class="tablinks"><a href="#">My Account</a></li>
+    <li onclick="openCity(event, 'setting')" class="tablinks"><a href="#">Setting</a></li>
+    <li onclick="openCity(event, 'order')" class="tablinks"><a href="#">View Order</a></li>
   </ul>
 
 
@@ -57,7 +57,7 @@
 
 <div id="order" class="tabcontent">
 <br><br>
-  <table class="table table-striped">
+  <table class="table table-striped" style="width: 100%">
     <thead>
       <tr>
         <th>Invoice #</th>

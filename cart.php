@@ -72,7 +72,7 @@
               <td></td>
               <td></td>
               <td><h3>Total</h3></td>
-              <td class="text-right"><h3><strong>$31.53</strong></h3></td>
+              <td class="text-right"><h3><strong>$3.98</strong></h3></td>
           </tr>
           <br><br>
           <tr>
