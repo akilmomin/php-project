@@ -29,7 +29,7 @@
 
               <td data-th="Price">$1.99</td>
               <td data-th="Quantity">
-                <input type="number" class="form-control text-center" value="1">
+                <input type="number" class="form-control text-center" value="1" min="1">
               </td>
               <td data-th="Subtotal" class="text-center">1.99</td>
               <td class="actions" data-th="">
@@ -54,7 +54,7 @@
 
               <td data-th="Price">$1.99</td>
               <td data-th="Quantity">
-                <input type="number" class="form-control text-center" value="1">
+                <input type="number" class="form-control text-center" value="1" min="1">
               </td>
               <td data-th="Subtotal" class="text-center">1.99</td>
               <td class="actions" data-th="">
