@@ -9,7 +9,9 @@ body {
   width: 100%;
 }
 
-
+.center {
+  text-align: center;
+}
 /* HEADER */
 .menu {
   background-color: #ff8080;
@@ -218,14 +220,47 @@ footer a:link, a:visited {
   color: #f4511e;
 }
 
-table th{
-  text-align: center;
-  background-color: #ccc;
-}
 
 .contact-info p {
   text-align: left;
 }
+
+/*cart style */
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+    width:20%;
+    display: inline !important;
+  }
+  .actions .btn{
+    width:36%;
+    margin:1.5em 0;
+  }
+  
+  .actions .btn-info{
+    float:left;
+  }
+  .actions .btn-danger{
+    float:right;
+  }
+  
+  table#cart thead { display: none; }
+  table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+  table#cart tbody tr td:first-child { background: #333; color: #fff; }
+  table#cart tbody td:before {
+    content: attr(data-th); font-weight: bold;
+    display: inline-block; width: 8rem;
+  }
+  
+  
+  
+  table#cart tfoot td{display:block; }
+  table#cart tfoot td .btn{display:block;}
+  
+}
+
 /* extra styles*/
 
 .slideanim {visibility:hidden;}
