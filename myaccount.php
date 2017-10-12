@@ -41,6 +41,13 @@
           <br>
           <input class="btn" type="submit" name="Submit" value="Submit">
     </form>
+    <hr>
+    <form>
+        <center>
+          <label>Delete Account</label><br>
+          <input class="btn btn-danger" type="submit" name="Submit" value="Delete">
+        </center>
+    </form>
     </div>
     <div class="col-sm-4">
       
