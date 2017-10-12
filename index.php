@@ -5,8 +5,9 @@
 <h1>WELCOME</h1>
 </div>
       
+
+ <div class="sale"><marquee behavior="alternate" direction="left"><h1>SALE OF THE DAY </h1></marquee></div>
 <div class="home-info">
-  <div class="sale"><marquee behavior="alternate"><h1>SALE OF THE DAY </h1><br></marquee></div>
   <div class="row">
     <div class="col-sm-2"></div>
     <div class="col-sm-8">
