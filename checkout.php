@@ -11,6 +11,7 @@
 </head>
 <body>
   <div class="container-fluid checkout">
+  <h1 class="center">Checkout</h1><hr>
   <div class="row">
     <div class="col-md-6">
     <h2>Billing Address</h2>
