@@ -48,6 +48,7 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart">Cart</span></a></li>
+        <li><a href="myaccount.php"><span class="glyphicon glyphicon-user">Account</span></a></li>
         <li data-toggle="modal" data-target="#myModal"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
             <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog">
