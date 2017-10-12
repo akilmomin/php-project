@@ -6,8 +6,7 @@
   <div class="row">
     <div class="col-sm-5">
       <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker" style="color:blue"></span> (MAH): I-9 702 NAv Yuwan CHS Shristi Sec-4 Mira Road (E) Thane 401107</p>
-      <p><span class="glyphicon glyphicon-map-marker" style="color:blue"></span> (GUJ): Plot No. 4207 GIDC Near Crystal Chowkdi Ankleshwar 393002</p>
+      <p><span class="glyphicon glyphicon-map-marker" style="color:blue"></span>1401 Texas Ave N, Bryan TX</p>
       <p><span class="glyphicon glyphicon-phone" style="color:blue"></span> 9029232286</p>
       <p><span class="glyphicon glyphicon-envelope" style="color:blue"></span> is.24x7@gmail.com</p>     
     </div>

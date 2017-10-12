@@ -9,7 +9,9 @@ body {
   width: 100%;
 }
 
-
+.center {
+  text-align: center;
+}
 /* HEADER */
 .menu {
   background-color: #ff8080;
@@ -78,7 +80,7 @@ width: 70%;
   background-color: #f2f2f2;
   height: auto;
 }
-.home-info h1 {
+.sale h1 {
   text-align: center;
   font-size: 5.4em;
   font-weight: bolder;
@@ -218,14 +220,93 @@ footer a:link, a:visited {
   color: #f4511e;
 }
 
-table th{
-  text-align: center;
-  background-color: #ccc;
-}
 
 .contact-info p {
   text-align: left;
 }
+
+/*cart style */
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+    width:20%;
+    display: inline !important;
+  }
+  .actions .btn{
+    width:36%;
+    margin:1.5em 0;
+  }
+  
+  .actions .btn-info{
+    float:left;
+  }
+  .actions .btn-danger{
+    float:right;
+  }
+  
+  table#cart thead { display: none; }
+  table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+  table#cart tbody tr td:first-child { background: #333; color: #fff; }
+  table#cart tbody td:before {
+    content: attr(data-th); font-weight: bold;
+    display: inline-block; width: 8rem;
+  }
+  
+  
+  
+  table#cart tfoot td{display:block; }
+  table#cart tfoot td .btn{display:block;}
+  
+}
+/* My account */
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Style the close button */
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.topright:hover {color: red;}
+
 /* extra styles*/
 
 .slideanim {visibility:hidden;}
